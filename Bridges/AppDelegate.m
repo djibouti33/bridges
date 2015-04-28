@@ -19,7 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // log out the documents directory
-    NSLog(@"Documents Directory: %@", [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject]);
     NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:@"bridge_data/american_river"]);
 
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Bridges" ofType:@"plist"];
@@ -31,7 +30,6 @@
     for (NSDictionary *dict in bridges) {
         Bridge *bridge = [[Bridge alloc] init];
         bridge.name = [dict objectForKey:@"name"];
-        bridge.folderId = [dict objectForKey:@"folderId"];
         bridge.overview = [dict objectForKey:@"overview"];
         bridge.yearBuilt = [dict objectForKey:@"year"];
         bridge.length = dict[@"length"];
@@ -39,6 +37,9 @@
         CLLocationDegrees lat = [dict[@"latitude"] doubleValue];
         CLLocationDegrees lng = [dict[@"longitude"] doubleValue];
         bridge.coordinate = CLLocationCoordinate2DMake(lat, lng);
+        
+        NSString *directoryPath = [NSString stringWithFormat:@"bridge_data/%@", dict[@"folderId"]];
+        bridge.imagePaths = [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:directoryPath];
         
         [mBridges addObject:bridge];
     }

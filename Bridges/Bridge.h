@@ -12,10 +12,10 @@
 @interface Bridge : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *folderId;
 @property (nonatomic, strong) NSString *overview;
 @property (nonatomic, strong) NSString *yearBuilt;
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 @property (nonatomic, strong) NSString *length;
+@property (nonatomic, strong) NSArray *imagePaths;
 
 @end
