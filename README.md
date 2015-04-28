@@ -1,6 +1,8 @@
 # Bridges
 Demo App for the Sac Mobile Meetup's "Beginning Mobile App Development" series.
 
+![](https://github.com/djibouti33/bridges/blob/master/screenshot.png)
+
 This repo contains the master branch + 3 branches. 
 
 ## Master
