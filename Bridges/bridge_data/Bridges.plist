@@ -1,329 +1,326 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>bridges</key>
-	<array>
-		<dict>
-			<key>name</key>
-			<string>Mosquito Road Bridge</string>
-			<key>folderId</key>
-			<string>mosquito_road</string>
-			<key>overview</key>
-			<string>Suspension bridge over South Fork American River on Mosquito Road</string>
-			<key>year</key>
-			<string>1939</string>
-			<key>latitude</key>
-			<string>+38.77611</string>
-			<key>longitude</key>
-			<string>-120.74861</string>
-			<key>length</key>
-			<string>245</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>I Street Bridge</string>
-			<key>folderId</key>
-			<string>i_street</string>
-			<key>overview</key>
-			<string>Double deck swing bridge with two railroad tracks on lower deck and auto traffic on upper deck.</string>
-			<key>year</key>
-			<string>1911</string>
-			<key>latitude</key>
-			<string>+38.58627</string>
-			<key>longitude</key>
-			<string>-121.50649</string>
-			<key>length</key>
-			<string>854</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Fair Oaks Bridge</string>
-			<key>folderId</key>
-			<string>fair_oaks</string>
-			<key>overview</key>
-			<string>Pennsylvania through truss bridge over American River on Bridge Street</string>
-			<key>year</key>
-			<string>1909</string>
-			<key>latitude</key>
-			<string>+38.63675</string>
-			<key>longitude</key>
-			<string>-121.26551</string>
-			<key>length</key>
-			<string>617</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Freeport Bridge</string>
-			<key>folderId</key>
-			<string>freeport</string>
-			<key>overview</key>
-			<string>Bascule bridge over Sacramento River in Sacramento</string>
-			<key>year</key>
-			<string>1929</string>
-			<key>latitude</key>
-			<string>+38.45588</string>
-			<key>longitude</key>
-			<string>-121.50175</string>
-			<key>length</key>
-			<string>655</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Rainbow Bridge</string>
-			<key>folderId</key>
-			<string>rainbow</string>
-			<key>overview</key>
-			<string>Open spandrel Concrete arch bridge over American River on Greenback Lane in Folsom</string>
-			<key>year</key>
-			<string>1917</string>
-			<key>latitude</key>
-			<string>+38.68194</string>
-			<key>longitude</key>
-			<string>-121.17583</string>
-			<key>length</key>
-			<string>511</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tyler Island Bridge</string>
-			<key>folderId</key>
-			<string>tyler_island</string>
-			<key>overview</key>
-			<string>Swing bridge over Georgiana Slough on Tyler Island Bridge Road</string>
-			<key>year</key>
-			<string>1940</string>
-			<key>latitude</key>
-			<string>+38.16187</string>
-			<key>longitude</key>
-			<string>-121.58478</string>
-			<key>length</key>
-			<string>355</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Jibboom Street Bridge</string>
-			<key>folderId</key>
-			<string>jibboom</string>
-			<key>overview</key>
-			<string>Steel cantilevered through truss swing bridge flanked by Parker through truss approach spans.</string>
-			<key>year</key>
-			<string>1931</string>
-			<key>latitude</key>
-			<string>+38.59889</string>
-			<key>longitude</key>
-			<string>-121.50528</string>
-			<key>length</key>
-			<string>959</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Orangevale Avenue Bridge</string>
-			<key>folderId</key>
-			<string>orangevale_avenue</string>
-			<key>overview</key>
-			<string>Concrete open spandral arch bridge over Gold Creek on Orangevale Avenue in Folsom</string>
-			<key>year</key>
-			<string>1915</string>
-			<key>latitude</key>
-			<string>+38.68091</string>
-			<key>longitude</key>
-			<string>-121.19427</string>
-			<key>length</key>
-			<string>161</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Sacramento Northern Bike Trail - American River Bridge</string>
-			<key>folderId</key>
-			<string>sac_bike_trail</string>
-			<key>overview</key>
-			<string>Pratt through truss bridge of old Sacramento Northern Railroad converted to bike path use and preserved in place.</string>
-			<key>year</key>
-			<string>1907</string>
-			<key>latitude</key>
-			<string>+38.59402</string>
-			<key>longitude</key>
-			<string>-121.47457</string>
-			<key>length</key>
-			<string>600</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Sacramento River Bridge</string>
-			<key>folderId</key>
-			<string>sacramento_river</string>
-			<key>overview</key>
-			<string>Vertical lift bridge over Sacremento River on CA 12 in Rio Vista</string>
-			<key>year</key>
-			<string>1944</string>
-			<key>latitude</key>
-			<string>+38.15899</string>
-			<key>longitude</key>
-			<string>-121.68393</string>
-			<key>length</key>
-			<string>2890</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Steamboat Slough Bridge</string>
-			<key>folderId</key>
-			<string>steamboat_slough</string>
-			<key>overview</key>
-			<string>Bascule bridge over Steamboat Slough on CA 160</string>
-			<key>year</key>
-			<string>1924</string>
-			<key>latitude</key>
-			<string>+38.30441</string>
-			<key>longitude</key>
-			<string>-121.57450</string>
-			<key>length</key>
-			<string>342</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Sutter Slough Bridge</string>
-			<key>folderId</key>
-			<string>sutter_slough</string>
-			<key>overview</key>
-			<string>Swing bridge over Sutter Slough on Sutter Slough Bridge Road</string>
-			<key>year</key>
-			<string>1939</string>
-			<key>latitude</key>
-			<string>+38.32783</string>
-			<key>longitude</key>
-			<string>-121.57658</string>
-			<key>length</key>
-			<string>397</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tower Bridge</string>
-			<key>folderId</key>
-			<string>tower</string>
-			<key>overview</key>
-			<string>Vertical lift bridge over Sacramento River on CA 275 in West Sacramento</string>
-			<key>year</key>
-			<string>1934</string>
-			<key>latitude</key>
-			<string>+38.58000</string>
-			<key>longitude</key>
-			<string>-121.50667</string>
-			<key>length</key>
-			<string>738</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Lake Natoma Crossing</string>
-			<key>folderId</key>
-			<string>lake_natoma</string>
-			<key>overview</key>
-			<string>Post-tensioned box girder bridge over Lake Natoma on Folsom-Auburn Road in Folsom</string>
-			<key>year</key>
-			<string>1999</string>
-			<key>latitude</key>
-			<string>+38.67945</string>
-			<key>longitude</key>
-			<string>-121.18063</string>
-			<key>length</key>
-			<string>2230</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>American River Bridge</string>
-			<key>folderId</key>
-			<string>american_river</string>
-			<key>overview</key>
-			<string>Concrete arch bridge over American River on CA 160 in Sacramento</string>
-			<key>year</key>
-			<string>1915</string>
-			<key>latitude</key>
-			<string>+38.59667</string>
-			<key>longitude</key>
-			<string>-121.47500</string>
-			<key>length</key>
-			<string>620</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Antioch Bridge</string>
-			<key>folderId</key>
-			<string>antioch</string>
-			<key>overview</key>
-			<string>Bridge over San Joaquin River on State Highway 160</string>
-			<key>year</key>
-			<string>1978</string>
-			<key>latitude</key>
-			<string>+38.02400</string>
-			<key>longitude</key>
-			<string>-121.75162</string>
-			<key>length</key>
-			<string>9504</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Georgiana Slough Bridge</string>
-			<key>folderId</key>
-			<string>georgiana</string>
-			<key>overview</key>
-			<string>Bridge over Georgiana Slough on Isleton Road</string>
-			<key>year</key>
-			<string>1962</string>
-			<key>latitude</key>
-			<string>+38.23733</string>
-			<key>longitude</key>
-			<string>-121.51733 </string>
-			<key>length</key>
-			<string>289</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Isleton Bridge</string>
-			<key>folderId</key>
-			<string>isleton</string>
-			<key>overview</key>
-			<string>Bascule bridge over Sacramento River on CA 160</string>
-			<key>year</key>
-			<string>1923</string>
-			<key>latitude</key>
-			<string>+38.17175</string>
-			<key>longitude</key>
-			<string>-121.59355</string>
-			<key>length</key>
-			<string>624</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Twin Cities Road Bridge</string>
-			<key>folderId</key>
-			<string>twin_cities</string>
-			<key>overview</key>
-			<string>Warren through truss Swing bridge over Snodgrass Slough on Twin Cities Road in Walnut Grove</string>
-			<key>year</key>
-			<string>1931</string>
-			<key>latitude</key>
-			<string>+38.27694</string>
-			<key>longitude</key>
-			<string>-121.49778</string>
-			<key>length</key>
-			<string>1038</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Mokelumne River Bridge</string>
-			<key>folderId</key>
-			<string>mokelumne_river</string>
-			<key>overview</key>
-			<string>Swing bridge over Mokelumne River on CA 12</string>
-			<key>year</key>
-			<string>1942</string>
-			<key>latitude</key>
-			<string>+38.12667</string>
-			<key>longitude</key>
-			<string>-121.58000 </string>
-			<key>length</key>
-			<string>1436</string>
-		</dict>
-	</array>
-</dict>
+<array>
+    <dict>
+        <key>name</key>
+        <string>American River Bridge</string>
+        <key>folderId</key>
+        <string>american_river</string>
+        <key>overview</key>
+        <string>Concrete arch bridge over American River on CA 160 in Sacramento</string>
+        <key>year</key>
+        <string>1915</string>
+        <key>latitude</key>
+        <string>+38.59667</string>
+        <key>longitude</key>
+        <string>-121.47500</string>
+        <key>length</key>
+        <string>620</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Antioch Bridge</string>
+        <key>folderId</key>
+        <string>antioch</string>
+        <key>overview</key>
+        <string>Bridge over San Joaquin River on State Highway 160</string>
+        <key>year</key>
+        <string>1978</string>
+        <key>latitude</key>
+        <string>+38.02400</string>
+        <key>longitude</key>
+        <string>-121.75162</string>
+        <key>length</key>
+        <string>9504</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Fair Oaks Bridge</string>
+        <key>folderId</key>
+        <string>fair_oaks</string>
+        <key>overview</key>
+        <string>Pennsylvania through truss bridge over American River on Bridge Street</string>
+        <key>year</key>
+        <string>1909</string>
+        <key>latitude</key>
+        <string>+38.63675</string>
+        <key>longitude</key>
+        <string>-121.26551</string>
+        <key>length</key>
+        <string>617</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Freeport Bridge</string>
+        <key>folderId</key>
+        <string>freeport</string>
+        <key>overview</key>
+        <string>Bascule bridge over Sacramento River in Sacramento</string>
+        <key>year</key>
+        <string>1929</string>
+        <key>latitude</key>
+        <string>+38.45588</string>
+        <key>longitude</key>
+        <string>-121.50175</string>
+        <key>length</key>
+        <string>655</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Georgiana Slough Bridge</string>
+        <key>folderId</key>
+        <string>georgiana</string>
+        <key>overview</key>
+        <string>Bridge over Georgiana Slough on Isleton Road</string>
+        <key>year</key>
+        <string>1962</string>
+        <key>latitude</key>
+        <string>+38.23733</string>
+        <key>longitude</key>
+        <string>-121.51733 </string>
+        <key>length</key>
+        <string>289</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>I Street Bridge</string>
+        <key>folderId</key>
+        <string>i_street</string>
+        <key>overview</key>
+        <string>Double deck swing bridge with two railroad tracks on lower deck and auto traffic on upper deck.</string>
+        <key>year</key>
+        <string>1911</string>
+        <key>latitude</key>
+        <string>+38.58627</string>
+        <key>longitude</key>
+        <string>-121.50649</string>
+        <key>length</key>
+        <string>854</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Isleton Bridge</string>
+        <key>folderId</key>
+        <string>isleton</string>
+        <key>overview</key>
+        <string>Bascule bridge over Sacramento River on CA 160</string>
+        <key>year</key>
+        <string>1923</string>
+        <key>latitude</key>
+        <string>+38.17175</string>
+        <key>longitude</key>
+        <string>-121.59355</string>
+        <key>length</key>
+        <string>624</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Jibboom Street Bridge</string>
+        <key>folderId</key>
+        <string>jibboom</string>
+        <key>overview</key>
+        <string>Steel cantilevered through truss swing bridge flanked by Parker through truss approach spans.</string>
+        <key>year</key>
+        <string>1931</string>
+        <key>latitude</key>
+        <string>+38.59889</string>
+        <key>longitude</key>
+        <string>-121.50528</string>
+        <key>length</key>
+        <string>959</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Lake Natoma Crossing</string>
+        <key>folderId</key>
+        <string>lake_natoma</string>
+        <key>overview</key>
+        <string>Post-tensioned box girder bridge over Lake Natoma on Folsom-Auburn Road in Folsom</string>
+        <key>year</key>
+        <string>1999</string>
+        <key>latitude</key>
+        <string>+38.67945</string>
+        <key>longitude</key>
+        <string>-121.18063</string>
+        <key>length</key>
+        <string>2230</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Mokelumne River Bridge</string>
+        <key>folderId</key>
+        <string>mokelumne_river</string>
+        <key>overview</key>
+        <string>Swing bridge over Mokelumne River on CA 12</string>
+        <key>year</key>
+        <string>1942</string>
+        <key>latitude</key>
+        <string>+38.12667</string>
+        <key>longitude</key>
+        <string>-121.58000 </string>
+        <key>length</key>
+        <string>1436</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Mosquito Road Bridge</string>
+        <key>folderId</key>
+        <string>mosquito_road</string>
+        <key>overview</key>
+        <string>Suspension bridge over South Fork American River on Mosquito Road</string>
+        <key>year</key>
+        <string>1939</string>
+        <key>latitude</key>
+        <string>+38.77611</string>
+        <key>longitude</key>
+        <string>-120.74861</string>
+        <key>length</key>
+        <string>245</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Orangevale Avenue Bridge</string>
+        <key>folderId</key>
+        <string>orangevale_avenue</string>
+        <key>overview</key>
+        <string>Concrete open spandral arch bridge over Gold Creek on Orangevale Avenue in Folsom</string>
+        <key>year</key>
+        <string>1915</string>
+        <key>latitude</key>
+        <string>+38.68091</string>
+        <key>longitude</key>
+        <string>-121.19427</string>
+        <key>length</key>
+        <string>161</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Rainbow Bridge</string>
+        <key>folderId</key>
+        <string>rainbow</string>
+        <key>overview</key>
+        <string>Open spandrel Concrete arch bridge over American River on Greenback Lane in Folsom</string>
+        <key>year</key>
+        <string>1917</string>
+        <key>latitude</key>
+        <string>+38.68194</string>
+        <key>longitude</key>
+        <string>-121.17583</string>
+        <key>length</key>
+        <string>511</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Sacramento Northern Bike Trail - American River Bridge</string>
+        <key>folderId</key>
+        <string>sac_bike_trail</string>
+        <key>overview</key>
+        <string>Pratt through truss bridge of old Sacramento Northern Railroad converted to bike path use and preserved in place.</string>
+        <key>year</key>
+        <string>1907</string>
+        <key>latitude</key>
+        <string>+38.59402</string>
+        <key>longitude</key>
+        <string>-121.47457</string>
+        <key>length</key>
+        <string>600</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Sacramento River Bridge</string>
+        <key>folderId</key>
+        <string>sacramento_river</string>
+        <key>overview</key>
+        <string>Vertical lift bridge over Sacremento River on CA 12 in Rio Vista</string>
+        <key>year</key>
+        <string>1944</string>
+        <key>latitude</key>
+        <string>+38.15899</string>
+        <key>longitude</key>
+        <string>-121.68393</string>
+        <key>length</key>
+        <string>2890</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Steamboat Slough Bridge</string>
+        <key>folderId</key>
+        <string>steamboat_slough</string>
+        <key>overview</key>
+        <string>Bascule bridge over Steamboat Slough on CA 160</string>
+        <key>year</key>
+        <string>1924</string>
+        <key>latitude</key>
+        <string>+38.30441</string>
+        <key>longitude</key>
+        <string>-121.57450</string>
+        <key>length</key>
+        <string>342</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Sutter Slough Bridge</string>
+        <key>folderId</key>
+        <string>sutter_slough</string>
+        <key>overview</key>
+        <string>Swing bridge over Sutter Slough on Sutter Slough Bridge Road</string>
+        <key>year</key>
+        <string>1939</string>
+        <key>latitude</key>
+        <string>+38.32783</string>
+        <key>longitude</key>
+        <string>-121.57658</string>
+        <key>length</key>
+        <string>397</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Tower Bridge</string>
+        <key>folderId</key>
+        <string>tower</string>
+        <key>overview</key>
+        <string>Vertical lift bridge over Sacramento River on CA 275 in West Sacramento</string>
+        <key>year</key>
+        <string>1934</string>
+        <key>latitude</key>
+        <string>+38.58000</string>
+        <key>longitude</key>
+        <string>-121.50667</string>
+        <key>length</key>
+        <string>738</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Twin Cities Road Bridge</string>
+        <key>folderId</key>
+        <string>twin_cities</string>
+        <key>overview</key>
+        <string>Warren through truss Swing bridge over Snodgrass Slough on Twin Cities Road in Walnut Grove</string>
+        <key>year</key>
+        <string>1931</string>
+        <key>latitude</key>
+        <string>+38.27694</string>
+        <key>longitude</key>
+        <string>-121.49778</string>
+        <key>length</key>
+        <string>1038</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Tyler Island Bridge</string>
+        <key>folderId</key>
+        <string>tyler_island</string>
+        <key>overview</key>
+        <string>Swing bridge over Georgiana Slough on Tyler Island Bridge Road</string>
+        <key>year</key>
+        <string>1940</string>
+        <key>latitude</key>
+        <string>+38.16187</string>
+        <key>longitude</key>
+        <string>-121.58478</string>
+        <key>length</key>
+        <string>355</string>
+    </dict>
+</array>
 </plist>
