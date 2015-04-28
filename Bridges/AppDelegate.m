@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Bridge.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // log out the documents directory
+    NSLog(@"Documents Directory: %@", [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject]);
+    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:@"bridge_data/american_river"]);
+
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Bridges" ofType:@"plist"];
+    NSDictionary *plist = [[NSDictionary alloc] initWithContentsOfFile:filePath];
+    NSArray *bridges = plist[@"bridges"];
+    
+    NSMutableArray *mBridges = [NSMutableArray arrayWithCapacity:bridges.count];
+    
+    for (NSDictionary *dict in bridges) {
+        Bridge *bridge = [[Bridge alloc] init];
+        bridge.name = [dict objectForKey:@"name"];
+        bridge.folderId = [dict objectForKey:@"folderId"];
+        bridge.overview = [dict objectForKey:@"overview"];
+        bridge.yearBuilt = [dict objectForKey:@"year"];
+        bridge.length = dict[@"length"];
+
+        CLLocationDegrees lat = [dict[@"latitude"] doubleValue];
+        CLLocationDegrees lng = [dict[@"longitude"] doubleValue];
+        bridge.coordinate = CLLocationCoordinate2DMake(lat, lng);
+        
+        [mBridges addObject:bridge];
+    }
+    
+    self.bridges = mBridges;
+    
     return YES;
 }
 

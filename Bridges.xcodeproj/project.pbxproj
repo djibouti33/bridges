@@ -14,6 +14,9 @@
 		0A5F0D741AEF4220003202AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F0D731AEF4220003202AD /* Images.xcassets */; };
 		0A5F0D771AEF4220003202AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F0D751AEF4220003202AD /* LaunchScreen.xib */; };
 		0A5F0D831AEF4221003202AD /* BridgesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F0D821AEF4221003202AD /* BridgesTests.m */; };
+		0A5F0F5D1AEF4951003202AD /* bridge_data in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F0F5C1AEF4951003202AD /* bridge_data */; };
+		0A5F0F601AEF4C61003202AD /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F0F5F1AEF4C61003202AD /* Bridge.m */; };
+		0A5F0F621AEF4CD4003202AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5F0F611AEF4CD4003202AD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		0A5F0D7C1AEF4221003202AD /* BridgesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F0D811AEF4221003202AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5F0D821AEF4221003202AD /* BridgesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgesTests.m; sourceTree = "<group>"; };
+		0A5F0F5C1AEF4951003202AD /* bridge_data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bridge_data; sourceTree = "<group>"; };
+		0A5F0F5E1AEF4C61003202AD /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		0A5F0F5F1AEF4C61003202AD /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
+		0A5F0F611AEF4CD4003202AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5F0F621AEF4CD4003202AD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,7 @@
 		0A5F0D5A1AEF4220003202AD = {
 			isa = PBXGroup;
 			children = (
+				0A5F0F611AEF4CD4003202AD /* MapKit.framework */,
 				0A5F0D651AEF4220003202AD /* Bridges */,
 				0A5F0D7F1AEF4221003202AD /* BridgesTests */,
 				0A5F0D641AEF4220003202AD /* Products */,
@@ -89,6 +98,8 @@
 				0A5F0D731AEF4220003202AD /* Images.xcassets */,
 				0A5F0D751AEF4220003202AD /* LaunchScreen.xib */,
 				0A5F0D661AEF4220003202AD /* Supporting Files */,
+				0A5F0F5E1AEF4C61003202AD /* Bridge.h */,
+				0A5F0F5F1AEF4C61003202AD /* Bridge.m */,
 			);
 			path = Bridges;
 			sourceTree = "<group>";
@@ -96,6 +107,7 @@
 		0A5F0D661AEF4220003202AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A5F0F5C1AEF4951003202AD /* bridge_data */,
 				0A5F0D671AEF4220003202AD /* Info.plist */,
 				0A5F0D681AEF4220003202AD /* main.m */,
 			);
@@ -200,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5F0D721AEF4220003202AD /* Main.storyboard in Resources */,
+				0A5F0F5D1AEF4951003202AD /* bridge_data in Resources */,
 				0A5F0D771AEF4220003202AD /* LaunchScreen.xib in Resources */,
 				0A5F0D741AEF4220003202AD /* Images.xcassets in Resources */,
 			);
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5F0F601AEF4C61003202AD /* Bridge.m in Sources */,
 				0A5F0D6F1AEF4220003202AD /* ViewController.m in Sources */,
 				0A5F0D6C1AEF4220003202AD /* AppDelegate.m in Sources */,
 				0A5F0D691AEF4220003202AD /* main.m in Sources */,
@@ -416,6 +430,7 @@
 				0A5F0D881AEF4221003202AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5F0D891AEF4221003202AD /* Build configuration list for PBXNativeTarget "BridgesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				0A5F0D8B1AEF4221003202AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
