@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4wo-eF-i7m">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Bridge Index View Controller-->
+        <!--Bridges of Sacramento County-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="BridgeIndexViewController" sceneMemberID="viewController">
@@ -17,11 +17,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BridgeCell" rowHeight="100" id="ri4-Sj-OdT" customClass="BridgeTableViewCell">
-                                        <rect key="frame" x="0.0" y="22" width="375" height="100"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BridgeCell" rowHeight="100" id="ri4-Sj-OdT" customClass="BridgeTableViewCell">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ri4-Sj-OdT" id="eqb-mU-sDp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="HLw-tC-lbi">
@@ -56,6 +56,7 @@
                                             <outlet property="bridgeImageView" destination="HLw-tC-lbi" id="JWe-qr-aFf"/>
                                             <outlet property="bridgeName" destination="A1x-Hn-Bz3" id="eHa-Cc-Zes"/>
                                             <outlet property="bridgeYear" destination="08h-an-SYc" id="B9g-M1-cfn"/>
+                                            <segue destination="RRu-bW-O1B" kind="push" identifier="detailSegue" id="TQP-63-bmv"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -64,6 +65,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Bridges of Sacramento County" id="gdf-gz-quQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="tableView" destination="Eu8-Br-CYD" id="l0U-Bq-NJv"/>
@@ -71,7 +73,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="449.5" y="353.5"/>
+            <point key="canvasLocation" x="948.5" y="352.5"/>
+        </scene>
+        <!--Bridge Detail View Controller-->
+        <scene sceneID="liV-zu-Jaw">
+            <objects>
+                <viewController id="RRu-bW-O1B" customClass="BridgeDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O8Z-d8-Bte">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vqC-Pw-SSI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OwN-rE-oP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rN6-hB-cAF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4wo-eF-i7m" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pGh-qc-ukM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Vow-Eb-cGa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGs-sd-xqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="353"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -103,6 +103,7 @@
 		0A13564C1AEF67D400431F6A /* 200201-L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1355EB1AEF67D400431F6A /* 200201-L.jpg */; };
 		0A13564D1AEF67D400431F6A /* 200202-L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1355EC1AEF67D400431F6A /* 200202-L.jpg */; };
 		0A1356501AEF6C0A00431F6A /* BridgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A13564F1AEF6C0A00431F6A /* BridgeTableViewCell.m */; };
+		0A1356531AEF6FBF00431F6A /* BridgeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1356521AEF6FBF00431F6A /* BridgeDetailViewController.m */; };
 		0A5F0D691AEF4220003202AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F0D681AEF4220003202AD /* main.m */; };
 		0A5F0D6C1AEF4220003202AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F0D6B1AEF4220003202AD /* AppDelegate.m */; };
 		0A5F0D721AEF4220003202AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F0D701AEF4220003202AD /* Main.storyboard */; };
@@ -222,6 +223,8 @@
 		0A1355EC1AEF67D400431F6A /* 200202-L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "200202-L.jpg"; sourceTree = "<group>"; };
 		0A13564E1AEF6C0A00431F6A /* BridgeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeTableViewCell.h; sourceTree = "<group>"; };
 		0A13564F1AEF6C0A00431F6A /* BridgeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeTableViewCell.m; sourceTree = "<group>"; };
+		0A1356511AEF6FBF00431F6A /* BridgeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeDetailViewController.h; sourceTree = "<group>"; };
+		0A1356521AEF6FBF00431F6A /* BridgeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeDetailViewController.m; sourceTree = "<group>"; };
 		0A5F0D631AEF4220003202AD /* Bridges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F0D671AEF4220003202AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5F0D681AEF4220003202AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -555,6 +558,8 @@
 				0A5F0F641AEF51F1003202AD /* BridgeIndexViewController.m */,
 				0A13564E1AEF6C0A00431F6A /* BridgeTableViewCell.h */,
 				0A13564F1AEF6C0A00431F6A /* BridgeTableViewCell.m */,
+				0A1356511AEF6FBF00431F6A /* BridgeDetailViewController.h */,
+				0A1356521AEF6FBF00431F6A /* BridgeDetailViewController.m */,
 			);
 			path = Bridges;
 			sourceTree = "<group>";
@@ -785,6 +790,7 @@
 				0A1356501AEF6C0A00431F6A /* BridgeTableViewCell.m in Sources */,
 				0A5F0D6C1AEF4220003202AD /* AppDelegate.m in Sources */,
 				0A5F0F651AEF51F1003202AD /* BridgeIndexViewController.m in Sources */,
+				0A1356531AEF6FBF00431F6A /* BridgeDetailViewController.m in Sources */,
 				0A5F0D691AEF4220003202AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
