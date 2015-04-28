@@ -22,8 +22,7 @@
     NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:@"bridge_data/american_river"]);
 
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Bridges" ofType:@"plist"];
-    NSDictionary *plist = [[NSDictionary alloc] initWithContentsOfFile:filePath];
-    NSArray *bridges = plist[@"bridges"];
+    NSArray *bridges = [[NSArray alloc] initWithContentsOfFile:filePath];
     
     NSMutableArray *mBridges = [NSMutableArray arrayWithCapacity:bridges.count];
     
