@@ -16,8 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.overviewLabel.text = self.bridge.overview;
+    self.lengthLabel.text = self.bridge.length;
+    self.yearBuiltLabel.text = self.bridge.yearBuilt;
 
-    self.title = self.bridge.name;
+    NSArray *imagePaths = self.bridge.imagePaths;
+    if ([imagePaths count]) {
+        NSString *randomPath = imagePaths[arc4random_uniform((u_int32_t)[imagePaths count])];
+        self.imageView.image = [UIImage imageWithContentsOfFile:randomPath];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

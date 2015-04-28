@@ -13,5 +13,9 @@
 @interface BridgeDetailViewController : UIViewController
 
 @property (nonatomic, strong) Bridge *bridge;
+@property (weak, nonatomic) IBOutlet UILabel *overviewLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yearBuiltLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lengthLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

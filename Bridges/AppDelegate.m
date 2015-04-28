@@ -16,11 +16,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    // log out the documents directory
-    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:@"bridge_data/american_river"]);
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Bridges" ofType:@"plist"];
     NSArray *bridges = [[NSArray alloc] initWithContentsOfFile:filePath];
     
